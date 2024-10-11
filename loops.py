@@ -13,3 +13,9 @@ for i in range(6):
 names = ["Harry", "Ron", "Hermione"]
 for i in names:
     print(i)
+
+
+#each a string value
+name = "Harry"
+for charger in name:
+    print(charger)
