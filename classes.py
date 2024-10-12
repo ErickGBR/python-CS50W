@@ -1,13 +1,16 @@
+
+#class to show pints
 class Point():
     def __init__(self, x, y):
         self.x = x
         self.y = y
-        
+
 p = Point(2,3)
 print(p.x)
 print(p.y)
 
 
+#class to evaluate a flights avaivility
 class Flight():
     def __init__(self, capacity) :
         self.capacity = capacity
